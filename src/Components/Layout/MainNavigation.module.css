@@ -5,8 +5,10 @@
     align-items: center;
     justify-content: space-between;
     background-color: #77002e;
-    padding: 0 10%;
+    padding: 0 5%;
+    position: fixed;
     top: 0;
+    z-index: 3;
   }
   
   .logo {

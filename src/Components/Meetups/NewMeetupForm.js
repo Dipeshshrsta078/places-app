@@ -29,21 +29,21 @@ const NewMeetupForm = (props) => {
     <Card>
       <form className={classes.form} onSubmit={handleSubmit}>
         <div className={classes.control}>
-          <label>Meetup Title</label>
+          <label>Place Name</label>
           <input type="text" required id="title" ref={titleInputRef} />
         </div>
 
         <div className={classes.control}>
-          <label htmlFor="image">Meetup Image</label>
+          <label htmlFor="image">Place Image URL</label>
           <input type="url" required id="image" ref={imageInputRef} />
         </div>
 
         <div className={classes.control}>
-          <label htmlFor="address">Meetup Address</label>
+          <label htmlFor="address">Address</label>
           <input type="text" required id="address" ref={addressInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor="description">Meetup Title</label>
+          <label htmlFor="description">Description</label>
           <textarea
             id="description"
             required
